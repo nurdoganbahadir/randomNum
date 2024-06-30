@@ -10,6 +10,6 @@ let randomNum2;
 MyBtn.onclick = function () {
   randomNum1 = Math.floor(Math.random() * max) + min;
   randomNum2 = Math.floor(Math.random() * max) + min;
-  num1.textContent=randomNum1;
+  num1.textContent = randomNum1;
   num2.textContent = randomNum2;
 };
